@@ -1,0 +1,7 @@
+<html>
+	<body>
+		<h1> My first Heading </h1>
+		<p> My name is Kruti</p>
+	</body>
+</html>
+
