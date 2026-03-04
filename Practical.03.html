@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Record & Timetable</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color:#f4f6f9;
+                margin: 20px;
+            }
+            h2{
+                text-align: center;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 40px;
+                background-color: #ffffff;
+            }
+
+            caption {
+                font-size: 1.4em;
+                margin: 10px;
+                font-weight: bold;
+            }
+
+            th, td {
+                border: 1px solid#333;
+                padding: 10px;
+                text-align: center;
+            }
+
+            thead {
+                background-color:#007BFF;
+                color: white;
+            }
+            tfoot {
+                background-color: #f1f1f1;
+                font-weight: bold;
+            }
+
+            .hishlight {
+                background-color: #e9f7ef;;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Student REcord</h2>
+
+        <table>
+            <caption>Academic performance - Semester 1</caption>
+
+            <colgroup>
+                <col span="1" style="background-color:#f8f9f1;">
+                <col span="3">
+                <col span="1" style="background-color:#f8f9fa;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th scope="col">Roll No</th>
+                    <th scope="col">Student Name</th>
+                    <th scope="col">Subject</th>
+                    <th scop="col">Marks</th>
+                    <th scope="col">Grade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+            <td rowspan="3">101</td>
+            <td rowspan="3">Spandan Gulhane</td>
+            <td>Mathematics</td>
+            <td>88</td>
+            <td>A</td>
+            </tr>
+            <tr>
+                <td>Cience</td>
+                <td>92</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>81</td>
+                <td>A</td>
+            </tr>
+            <tr class="highlight">
+                <td rowspan="3">102</td>
+                <td rowspan="3">Radhe Mohan</td>
+                <td>Mathematics</td>
+                <td>75</td>
+                <td>B+</td>
+                </tr>
+                <tr class="highlight">
+                    <td>Science</td>
+                    <td>84</td>
+                    <td>A</td>
+                </tr>
+                <tr class="highlight">
+                    <td>English</td>
+                    <td>79</td>
+                    <td>B+</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Students</td>
+                    <td colspan="2">2</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>class Timetable</h2>
+        <table>
+            <caption>Weekly Timtable - Class x</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">9:00 - 10:00</th>
+                    <th scope="col">10:00 - 11:00</th>
+                    <th> scope="col">11:00 - 12:00</th>
+                    <th scope="col">12:00 - 1:00</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Monday</th>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td rowspan="5">Lunch Break</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tuesday</th>
+                    <td>English</td>
+                    <td>Math</td>
+                    <td>Computer</td>
+                </tr>
+                <tr>
+                    <th scope="row">Wednesday</th>
+                    <td>Science</td>
+                    <td>Computer</td>
+                    <td>Math</td>
+                </tr>
+                <tr>
+                    <th scop="row">Thursday</th>
+                    <td>Computer</td>
+                    <td>English</td>
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <th scope="row">Firday</th>
+                    <td colspan="2">Project Work</td>
+                    <td>Sports</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Note: Timings are subject to change.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
