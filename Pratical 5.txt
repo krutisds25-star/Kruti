@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+</head>
+
+<body>
+
+<h1 align="center">My Resume</h1>
+
+<!-- Profile Image -->
+<img src="profile.jpg" alt="Profile Photo" width="150" height="150">
+
+<h2>Personal Information</h2>
+<ul>
+    <li><b>Name:</b> Kruti Sawarkar</li>
+    <li><b>Email:</b> kruti@email.com</li>
+    <li><b>Phone:</b> 9876543210</li>
+    <li><b>Location:</b> Nagpur, Maharashtra</li>
+</ul>
+
+<h2>Career Objective</h2>
+<p>
+To obtain a challenging position where I can use my knowledge and skills for the growth of the organization.
+</p>
+
+<h2>Educational Qualification</h2>
+
+<table border="1">
+<tr>
+    <th>Qualification</th>
+    <th>Institute</th>
+    <th>Year</th>
+    <th>Percentage</th>
+</tr>
+
+<tr>
+    <td>SSC</td>
+    <td>ABC School</td>
+    <td>2020</td>
+    <td>85%</td>
+</tr>
+
+<tr>
+    <td>HSC</td>
+    <td>XYZ College</td>
+    <td>2022</td>
+    <td>80%</td>
+</tr>
+
+<tr>
+    <td>Diploma / Degree</td>
+    <td>Engineering College</td>
+    <td>2025</td>
+    <td>75%</td>
+</tr>
+</table>
+
+<h2>Skills</h2>
+<ol>
+    <li>HTML5</li>
+    <li>Basic C++ Programming</li>
+    <li>Web Designing</li>
+</ol>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Reading</li>
+    <li>Listening to Music</li>
+    <li>Learning New Technology</li>
+</ul>
+
+<h2>Useful Links</h2>
+<p>
+Visit my GitHub: 
+<a href="https://github.com" target="_blank">GitHub Profile</a>
+</p>
+
+</body>
+</html>
+```
+
+### Features used in this webpage
+
+* **Image:** `<img>` for profile photo
+* **List:** `<ul>` and `<ol>` for skills and hobbies
+* **Table:** `<table>` for education details
+* **Hyperlink:** `<a>` for GitHub link
+
+If you want, I can also show you:
+
+* **Output preview of this resume webpage**
+* **A more attractive resume design using HTML + CSS** (good for practical exams).
