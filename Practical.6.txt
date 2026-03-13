@@ -40,6 +40,15 @@
 <option value="mca">MCA</option>
 <option value="msc">M.Sc</option>
 </select>
+<br><br>
+
+<label>Year of Study:</label>
+<select name="year">
+<option>1st Year</option>
+<option>2nd year</option>
+<option>3rd year</option>
+<option>4th year</option>
+</elect>
 </fieldset>
 
 <br>
