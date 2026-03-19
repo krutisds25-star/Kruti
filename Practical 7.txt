@@ -1,0 +1,139 @@
+ https://share.google/GJ6Lj1BKiiwNHZ8Jl
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tribute Page - Dr. A.P.J. Abdul Kalam</title>
+
+<style>
+
+/* Body Styling */
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar{
+    background-color:#333;
+    overflow:hidden;
+}
+
+.navbar a{
+    float:left;
+    color:white;
+    text-decoration:none;
+    padding:14px 20px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    background-color:#575757;
+}
+
+/* Header Section */
+.header{
+    text-align:center;
+    background:#2c3e50;
+    color:white;
+    padding:30px;
+}
+
+/* Container Layout */
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border:2px solid #ccc;
+}
+
+/* Image Styling */
+.profile-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    border:5px solid #444;
+}
+
+/* Section Styling */
+.section{
+    margin-top:20px;
+    padding:15px;
+    border:1px solid #ddd;
+    background:#fafafa;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    background:#333;
+    color:white;
+    padding:10px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="#">Home</a>
+<a href="#">Biography</a>
+<a href="#">Achievements</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</div>
+
+<!-- Header -->
+<div class="header">
+<h1>Dr. A.P.J. Abdul Kalam</h1>
+<p>Missile Man of India | Former President of India</p>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+
+<img src="abj abdul kalam.JPEG" WIDTH="360">
+<div class="section">
+<h2>Biography</h2>
+<p>
+Dr. A.P.J. Abdul Kalam was one of India's most respected scientists and the 11th
+President of India. He played a key role in India's missile development and
+nuclear weapons program. Because of his contributions, he is popularly known as
+the "Missile Man of India".
+</p>
+</div>
+
+
+https://share.google/GJ6Lj1BKiiwNHZ8Jl
+<div class="section">
+<h2>Achievements</h2>
+<ul>
+<li>11th President of India (2002–2007)</li>
+<li>Key contributor to India's Pokhran-II nuclear tests</li>
+<li>Recipient of Bharat Ratna (India’s highest civilian award)</li>
+<li>Renowned aerospace scientist at ISRO and DRDO</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Famous Quote</h2>
+<p>
+"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+</p>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+<p>Tribute Page | Created for Web Development Practical</p>
+</div>
+
+</body>
+</html>
