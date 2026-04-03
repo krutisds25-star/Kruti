@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS3 Webpage</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        /* Multiple Columns */
+        .content {
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+        /* Card Section */
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+
+        /* Transformation */
+        .card:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .card {
+            animation: fadeIn 2s ease-in;
+        }
+
+        /* Responsive Design */
+        @media(max-width: 900px) {
+            .content {
+                column-count: 2;
+            }
+        }
+
+        @media(max-width: 600px) {
+            .content {
+                column-count: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Responsive Webpage</h1>
+    <p>Using CSS3 Features</p>
+</header>
+
+<div class="container">
+    <div class="content">
+        <div class="card">This is card 1 with animation and transformation.</div>
+        <div class="card">This is card 2 with hover effect.</div>
+        <div class="card">This is card 3 with multiple columns layout.</div>
+        <div class="card">This is card 4 with responsive design.</div>
+        <div class="card">This is card 5 with CSS3 features.</div>
+        <div class="card">This is card 6 demonstrating modern UI.</div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Responsive Design</p>
+</footer>
+
+</body>
+</html>
