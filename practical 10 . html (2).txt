@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iframe Demo - Map & External Page</title>
+</head>
+
+<body>
+
+<h1 align="center">HTML IFrame Demo</h1>
+
+<!-- Navigation Links -->
+<div style="width: 25%; float: left; background-color: lightgray; height: 500px;">
+    <h3>Menu</h3>
+    <ul>
+        <li><a href="about:blank" target="contentFrame">Home</a></li>
+        <li><a href="https://www.google.com/maps?q=Nagpur&output=embed" target="contentFrame">View Map</a></li>
+        <li><a href="https://www.wikipedia.org" target="contentFrame">External Page</a></li>
+    </ul>
+</div>
+
+<!-- Content Area -->
+<div style="width: 75%; float: left;">
+    <iframe name="contentFrame" width="100%" height="500">
+    </iframe>
+</div>
+
+</body>
+</html>
